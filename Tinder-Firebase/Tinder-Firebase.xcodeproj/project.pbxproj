@@ -14,6 +14,7 @@
 		38773EE02358F3500079AE16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38773EDE2358F3500079AE16 /* LaunchScreen.storyboard */; };
 		38773EEB2358F3510079AE16 /* Tinder_FirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38773EEA2358F3510079AE16 /* Tinder_FirebaseTests.swift */; };
 		38773EF62358F3510079AE16 /* Tinder_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38773EF52358F3510079AE16 /* Tinder_FirebaseUITests.swift */; };
+		38773F052358F4EC0079AE16 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38773F042358F4EC0079AE16 /* Extensions+UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		38773EF12358F3510079AE16 /* Tinder-FirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tinder-FirebaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38773EF52358F3510079AE16 /* Tinder_FirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder_FirebaseUITests.swift; sourceTree = "<group>"; };
 		38773EF72358F3510079AE16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38773F042358F4EC0079AE16 /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		38773ED42358F3500079AE16 /* Tinder-Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				38773F032358F4CB0079AE16 /* Extension */,
 				38773ED52358F3500079AE16 /* AppDelegate.swift */,
 				38773ED72358F3500079AE16 /* ViewController.swift */,
 				38773ED92358F3500079AE16 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				38773EF72358F3510079AE16 /* Info.plist */,
 			);
 			path = "Tinder-FirebaseUITests";
+			sourceTree = "<group>";
+		};
+		38773F032358F4CB0079AE16 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				38773F042358F4EC0079AE16 /* Extensions+UIView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				38773ED82358F3500079AE16 /* ViewController.swift in Sources */,
 				38773ED62358F3500079AE16 /* AppDelegate.swift in Sources */,
+				38773F052358F4EC0079AE16 /* Extensions+UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
