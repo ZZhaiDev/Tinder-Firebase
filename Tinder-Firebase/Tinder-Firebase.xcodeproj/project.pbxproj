@@ -18,6 +18,7 @@
 		38773F082358FC9A0079AE16 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38773F072358FC9A0079AE16 /* TopNavigationStackView.swift */; };
 		38773F0A2358FEB90079AE16 /* HomeBottomControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38773F092358FEB90079AE16 /* HomeBottomControlsStackView.swift */; };
 		38773F0C23590C780079AE16 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38773F0B23590C780079AE16 /* CardView.swift */; };
+		38773F0F235919520079AE16 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38773F0E235919520079AE16 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		38773F072358FC9A0079AE16 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
 		38773F092358FEB90079AE16 /* HomeBottomControlsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlsStackView.swift; sourceTree = "<group>"; };
 		38773F0B23590C780079AE16 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		38773F0E235919520079AE16 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		38773ED42358F3500079AE16 /* Tinder-Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				38773F0D235919470079AE16 /* Model */,
 				38773F062358FC840079AE16 /* Views */,
 				38773F032358F4CB0079AE16 /* Extension */,
 				38773ED52358F3500079AE16 /* AppDelegate.swift */,
@@ -151,6 +154,14 @@
 				38773F0B23590C780079AE16 /* CardView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		38773F0D235919470079AE16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38773F0E235919520079AE16 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +301,7 @@
 				38773F052358F4EC0079AE16 /* Extensions+UIView.swift in Sources */,
 				38773F0C23590C780079AE16 /* CardView.swift in Sources */,
 				38773F082358FC9A0079AE16 /* TopNavigationStackView.swift in Sources */,
+				38773F0F235919520079AE16 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

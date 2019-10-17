@@ -10,8 +10,9 @@ import UIKit
 
 class CardView: UIView {
     
-    fileprivate let imageView = UIImageView(image: #imageLiteral(resourceName: "lady5c"))
+    var imageView = UIImageView(image: #imageLiteral(resourceName: "lady5c"))
     fileprivate let threshold: CGFloat = 80
+    let informationLabel = UILabel()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -21,6 +22,14 @@ class CardView: UIView {
         
         addSubview(imageView)
         imageView.fillSuperview()
+        
+        addSubview(informationLabel)
+        informationLabel.anchor(top: nil, leading: leadingAnchor, bottom: bottomAnchor, trailing: trailingAnchor, padding: .init(top: 0, left: 16, bottom: 16, right: 16))
+        
+        informationLabel.text = "TEST NAME TEST NAME AGE"
+        informationLabel.textColor = .white
+        informationLabel.font = UIFont.systemFont(ofSize: 34, weight: .heavy)
+        informationLabel.numberOfLines = 0
         
         let panGuesture = UIPanGestureRecognizer(target: self, action: #selector(handlePan(gesture:)))
         addGestureRecognizer(panGuesture)
@@ -59,7 +68,7 @@ class CardView: UIView {
             
         }) { (_) in
             self.transform = .identity
-            self.frame = CGRect(x: 0, y: 0, width: self.superview!.frame.width, height: self.superview!.frame.height)
+//            self.frame = CGRect(x: 0, y: 0, width: self.superview!.frame.width, height: self.superview!.frame.height)
         }
     }
     
