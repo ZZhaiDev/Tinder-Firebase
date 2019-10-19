@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		381299D3235A28E20004C277 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381299D2235A28E20004C277 /* CardViewModel.swift */; };
 		381299D5235A2A010004C277 /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381299D4235A2A010004C277 /* Advertiser.swift */; };
+		384D07D5235B85E300572E32 /* RegistrationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D07D4235B85E300572E32 /* RegistrationTextField.swift */; };
+		384D07D7235B860500572E32 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D07D6235B860500572E32 /* RegistrationController.swift */; };
 		38773ED62358F3500079AE16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38773ED52358F3500079AE16 /* AppDelegate.swift */; };
 		38773ED82358F3500079AE16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38773ED72358F3500079AE16 /* ViewController.swift */; };
 		38773EDB2358F3500079AE16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38773ED92358F3500079AE16 /* Main.storyboard */; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		381299D2235A28E20004C277 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		381299D4235A2A010004C277 /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
+		384D07D4235B85E300572E32 /* RegistrationTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationTextField.swift; sourceTree = "<group>"; };
+		384D07D6235B860500572E32 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		38773ED22358F3500079AE16 /* Tinder-Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tinder-Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38773ED52358F3500079AE16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38773ED72358F3500079AE16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +129,7 @@
 				38773F032358F4CB0079AE16 /* Extension */,
 				38773ED52358F3500079AE16 /* AppDelegate.swift */,
 				38773ED72358F3500079AE16 /* ViewController.swift */,
+				384D07D6235B860500572E32 /* RegistrationController.swift */,
 				38773ED92358F3500079AE16 /* Main.storyboard */,
 				38773EDC2358F3500079AE16 /* Assets.xcassets */,
 				38773EDE2358F3500079AE16 /* LaunchScreen.storyboard */,
@@ -165,6 +170,7 @@
 				38773F072358FC9A0079AE16 /* TopNavigationStackView.swift */,
 				38773F092358FEB90079AE16 /* HomeBottomControlsStackView.swift */,
 				38773F0B23590C780079AE16 /* CardView.swift */,
+				384D07D4235B85E300572E32 /* RegistrationTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -313,7 +319,9 @@
 				38773ED62358F3500079AE16 /* AppDelegate.swift in Sources */,
 				381299D5235A2A010004C277 /* Advertiser.swift in Sources */,
 				38773F0A2358FEB90079AE16 /* HomeBottomControlsStackView.swift in Sources */,
+				384D07D5235B85E300572E32 /* RegistrationTextField.swift in Sources */,
 				38773F052358F4EC0079AE16 /* Extensions+UIView.swift in Sources */,
+				384D07D7235B860500572E32 /* RegistrationController.swift in Sources */,
 				381299D3235A28E20004C277 /* CardViewModel.swift in Sources */,
 				38773F0C23590C780079AE16 /* CardView.swift in Sources */,
 				38773F082358FC9A0079AE16 /* TopNavigationStackView.swift in Sources */,
