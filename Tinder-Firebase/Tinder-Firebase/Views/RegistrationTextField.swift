@@ -18,6 +18,7 @@ class RegistrationTextField: UITextField {
         self.height = height
         super.init(frame: .zero)
         layer.cornerRadius = height / 2
+        backgroundColor = .white
     }
     
     override func textRect(forBounds bounds: CGRect) -> CGRect {
